@@ -1,19 +1,20 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-html, body {
-  overflow: hidden;
+html,
+body {
+    overflow: hidden;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
 }
 
 .canvas {
@@ -29,9 +30,11 @@ body {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border: 2px solid #ff00ff;
-    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00f0ff;
+    box-shadow:
+        0 0 10px #ff00ff,
+        0 0 20px #00f0ff;
     color: #00f0ff;
-    font-family: 'Orbitron', sans-serif; /* Retro font, include via Google Fonts */
+    font-family: "Orbitron", sans-serif;
     border-radius: 10px;
 }
 
@@ -51,12 +54,13 @@ body {
     text-shadow: 0 0 3px #00f0ff;
 }
 
-.control-group select, .control-group input {
+.control-group select,
+.control-group input {
     background: #1a1a3a;
     border: 1px solid #ff00ff;
     color: #00f0ff;
     padding: 5px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
     box-shadow: 0 0 5px #ff00ff;
     border-radius: 5px;
     width: 100%;
@@ -67,7 +71,7 @@ body {
     border: none;
     padding: 10px;
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 0 10px #ff00ff;

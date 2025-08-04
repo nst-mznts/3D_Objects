@@ -1,14 +1,21 @@
 {
-  "name": "my-3d-cube",
+  "name": "3d-objects",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,html}\""
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "3.6.2",
     "vite": "^7.0.4"
   },
   "dependencies": {
